@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+main,
+section,
+aside,
+footer {
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color:#ff9800;
+}
+
+a:focus {
+  outline: 2px solid #ff9800;
+  outline-offset: 2px;
+}
+
+footer {
+  text-align: center;
+  text-align: center;
+  margin: 0;
+  clear: both;
+}
+
+P {
+    color: #ff9800;
+}
+
+body {
+    background-color: aqua;
+}
