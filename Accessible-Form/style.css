@@ -1,0 +1,36 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+  max-width: 600px;
+  margin: auto;
+  padding:1rem;
+  border: 2px dotted purple;
+  border-radius: 7px;
+}
+
+label{
+  display:block;
+  margin-top:1rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+button{
+  margin-top: 1rem;
+  padding: 0.5 1rem;
+  font-size: 1.2;
+}
