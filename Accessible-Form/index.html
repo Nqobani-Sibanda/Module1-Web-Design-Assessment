@@ -12,19 +12,33 @@
 
       <fieldset>
         <legend>Contact Information</legend>
-        <label for="fullName">FullName</label>
+        <label for="FullName">Full Name</label>
         <input type="text" id="fullNmae" placeholder="Please type your full name" required>
 
-         <label for="email">Email></label>
-         <input type="email" id="email" placeholder="Please Insert a valid email" required>
+         <label for="email">Email</label>
+         <input 
+         type="email" 
+         id="email" 
+         placeholder="Please Insert a valid email" 
+         aria-describedby="emaiHelp"
+         required>
+         <small id="emailHelp">We'll never share your email.</small>
 
          <label for="subject">Subject</label>
-         <input type="text" id="subject" placeholder="What are you contacting about">
+         <input type="text" id="subject" placeholder="What are you contacting about?"
+         pattern="[A-Za-z ]+"
+         aria-describedby="subjectHelp"
+         required>
+         <small id="subjectHelp">This input accepts only letters and spaces</small>
 
          <label for="message">Message</label>
-         <textarea id="message">
+        <textarea 
+        id="message"
+        placeholder="Enter your message here" 
+        rows="10"
+        required>
 
-         </textarea>
+        </textarea>
       </fieldset>
 
       <button type="submit">Send</button>
