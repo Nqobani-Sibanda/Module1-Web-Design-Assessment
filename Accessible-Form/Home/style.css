@@ -34,7 +34,6 @@ a:focus {
 
 footer {
   text-align: center;
-  text-align: center;
   margin: 0;
   clear: both;
 }
@@ -45,4 +44,9 @@ P {
 
 body {
     background-color: aqua;
+}
+
+footer{
+  clear:both;
+  font-style: italic;
 }
