@@ -9,6 +9,7 @@ aside,
 footer {
   padding: 1rem;
   margin: 1rem;
+  width: 90%;
 }
 
 header nav {
@@ -36,10 +37,6 @@ footer {
   text-align: center;
   margin: 0;
   clear: both;
-}
-
-P {
-    color: #ff9800;
 }
 
 body {
