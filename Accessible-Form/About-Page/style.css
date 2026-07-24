@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin:0;
+    background-color: khaki;
+   padding: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+img {
+    align-items: center;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    clear:both;
+    font-style: italic;
+    font-size: x-small;
+}
+
+@media (max-width: 600px) {
+  body {
+    
+body {
+    margin:auto;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1rem;
+  }
+}
+
+  h1 {
+    font-size: 1rem;
+  }
+}
