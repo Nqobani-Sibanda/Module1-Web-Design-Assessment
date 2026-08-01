@@ -34,3 +34,22 @@ button{
   padding: 0.5 1rem;
   font-size: 1.2;
 }
+
+footer{
+  text-align: center;
+  clear: both;
+  font-size: x-small;
+   background-color:goldenrod;
+}
+
+@media (max-width: 600px) {
+  body {
+    
+body {
+    margin:auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+}
+}
