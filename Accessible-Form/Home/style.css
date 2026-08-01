@@ -5,13 +5,17 @@
 header,
 main{
   padding: 0.3rem;
-  margin: 1rem;
+  margin-left: auto;
   margin-top: 2px;
 }
 
 header nav {
   display: flex;
   gap: 1rem;
+}
+
+img {
+  padding: 2px;
 }
 
 header {
