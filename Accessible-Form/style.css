@@ -37,7 +37,9 @@ button{
   margin-top: 1rem;
   padding: 0.5 1rem;
   font-size: 1.2;
+  color: goldenrod;
 }
+
 
 footer{
   text-align: center;
