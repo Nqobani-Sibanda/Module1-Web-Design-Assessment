@@ -10,6 +10,10 @@ button {
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+  padding:0.3rem
+}
+
 form{
   max-width: 600px;
   margin: auto;
