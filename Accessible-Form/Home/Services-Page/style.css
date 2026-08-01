@@ -4,10 +4,9 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 1rem;
+    padding: 0.3rem;
      margin: 0.5rem;
      font-size: medium; 
-     background-color: khaki;
      text-align: center;
      margin-top: 0.1rem;   
 }
@@ -40,4 +39,5 @@ footer{
     clear: both;
     font-style: italic;
     font-size: x-small;
+    background-color: goldenrod;
 }
