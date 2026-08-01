@@ -8,8 +8,8 @@ body{
     text-align: center;
     margin:0;
     background-color: khaki;
-   padding: 1rem;
-}
+    padding: 0.3rem;
+   }
 
 h1, h2 {
     text-align: center;
@@ -26,6 +26,7 @@ footer {
     clear:both;
     font-style: italic;
     font-size: x-small;
+     background-color:goldenrod;
 }
 
 @media (max-width: 600px) {
