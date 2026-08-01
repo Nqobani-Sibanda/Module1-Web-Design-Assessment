@@ -25,6 +25,10 @@ img {
   border: 1px solid goldenrod;
 }
 
+h6 {
+  padding-top: 0.5rem;
+}
+
 footer {
     text-align: center;
     clear:both;
