@@ -3,11 +3,8 @@
 }
 
 header,
-main,
-section,
-aside,
-footer {
-  padding: 1rem;
+main{
+  padding: 0.3rem;
   margin: 1rem;
   margin-top: 2px;
 }
@@ -23,22 +20,8 @@ header {
   align-items: center;
 }
 
-nav a:hover {
-  color:#ff9800;
-}
-
-a:focus {
-  outline-offset: 2px;
-}
-
-footer {
-  text-align: center;
-  margin-bottom: 0;
-  clear: both;
-}
-
 body {
-    background-color: khaki;
+    padding:0.3rem
 }
 
 footer{
@@ -46,6 +29,7 @@ footer{
   font-style: italic;
   font-size: x-small;
   background-color:goldenrod;
+  text-align: center;
 }
 
 
