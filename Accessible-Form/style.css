@@ -18,7 +18,7 @@ form{
   max-width: 600px;
   margin: auto;
   padding:1rem;
-  border: 2px dotted purple;
+  border: 2px dashed goldenrod;
   border-radius: 7px;
 }
 
@@ -44,6 +44,7 @@ footer{
   clear: both;
   font-size: x-small;
    background-color:goldenrod;
+   margin-top: 2rem;
 }
 
 @media (max-width: 600px) {
